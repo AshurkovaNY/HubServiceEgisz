@@ -72,6 +72,7 @@
     <Content Include="Xml\F001.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Xml\F002.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HubServiceEgisz.designer.cs">

@@ -21,4 +21,38 @@
       <Column Name="d_end" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
     </Type>
   </Table>
+  <Table Name="dbo.F002" Member="F002">
+    <Type Name="F002">
+      <Column Name="smocod" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="tf_okato" Type="System.String" DbType="NVarChar(5) NOT NULL" CanBeNull="false" />
+      <Column Name="nam_smop" Type="System.String" DbType="NVarChar(254) NOT NULL" CanBeNull="false" />
+      <Column Name="nam_smok" Type="System.String" DbType="NVarChar(250) NOT NULL" CanBeNull="false" />
+      <Column Name="inn" Type="System.String" DbType="NVarChar(12)" CanBeNull="true" />
+      <Column Name="Ogrn" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="KPP" Type="System.String" DbType="NVarChar(9)" CanBeNull="true" />
+      <Column Name="index_j" Type="System.String" DbType="NVarChar(6)" CanBeNull="true" />
+      <Column Name="addr_j" Type="System.String" DbType="NVarChar(254)" CanBeNull="true" />
+      <Column Name="index_f" Type="System.String" DbType="NVarChar(6)" CanBeNull="true" />
+      <Column Name="addr_f" Type="System.String" DbType="NVarChar(254)" CanBeNull="true" />
+      <Column Name="okopf" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="fam_ruk" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="im_ruk" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="ot_ruk" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="phone" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="fax" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="e_mail" Type="System.String" DbType="NVarChar(40)" CanBeNull="true" />
+      <Column Name="www" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="org" Type="System.Decimal" DbType="Decimal(1,0)" CanBeNull="true" />
+      <Column Name="d_begin" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="d_end" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="name_e" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Nal_p" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="DUVED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="kol_zl" Type="System.Decimal" DbType="Decimal(10,0)" CanBeNull="true" />
+      <Column Name="d_edit" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="n_doc" Type="System.String" DbType="NVarChar(20)" CanBeNull="true" />
+      <Column Name="d_start" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="data_e" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
 </Database>

@@ -16,6 +16,11 @@ namespace ServiceNsi
         [WebGet(UriTemplate = "/Getf001",
             ResponseFormat = WebMessageFormat.Json)]
         string Getf001();
+
+        [OperationContract]
+        [WebGet(UriTemplate = "/Getf002",
+           ResponseFormat = WebMessageFormat.Json)]
+        string Getf002();
     }
  
 }

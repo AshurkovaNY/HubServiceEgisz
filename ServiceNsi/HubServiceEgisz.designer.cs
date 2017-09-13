@@ -69,6 +69,14 @@ namespace ServiceNsi
 				return this.GetTable<F001>();
 			}
 		}
+		
+		public System.Data.Linq.Table<F002> F002
+		{
+			get
+			{
+				return this.GetTable<F002>();
+			}
+		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.F001")]
@@ -101,7 +109,7 @@ namespace ServiceNsi
 		
 		private string _e_mail;
 		
-		private decimal? _kf_tf;
+		private decimal _kf_tf;
 		
 		private string _www;
 		
@@ -322,7 +330,7 @@ namespace ServiceNsi
 		}
 		
 		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_kf_tf", DbType="Decimal(4,0) NOT NULL")]
-		public decimal? kf_tf
+		public decimal kf_tf
 		{
 			get
 			{
@@ -381,6 +389,555 @@ namespace ServiceNsi
 				if ((this._d_end != value))
 				{
 					this._d_end = value;
+				}
+			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.F002")]
+	public partial class F002
+	{
+		
+		private string _smocod;
+		
+		private string _tf_okato;
+		
+		private string _nam_smop;
+		
+		private string _nam_smok;
+		
+		private string _inn;
+		
+		private string _Ogrn;
+		
+		private string _KPP;
+		
+		private string _index_j;
+		
+		private string _addr_j;
+		
+		private string _index_f;
+		
+		private string _addr_f;
+		
+		private string _okopf;
+		
+		private string _fam_ruk;
+		
+		private string _im_ruk;
+		
+		private string _ot_ruk;
+		
+		private string _phone;
+		
+		private string _fax;
+		
+		private string _e_mail;
+		
+		private string _www;
+		
+		private System.Nullable<decimal> _org;
+		
+		private System.Nullable<System.DateTime> _d_begin;
+		
+		private System.Nullable<System.DateTime> _d_end;
+		
+		private string _name_e;
+		
+		private string _Nal_p;
+		
+		private System.Nullable<System.DateTime> _DUVED;
+		
+		private System.Nullable<decimal> _kol_zl;
+		
+		private System.Nullable<System.DateTime> _d_edit;
+		
+		private string _n_doc;
+		
+		private System.Nullable<System.DateTime> _d_start;
+		
+		private System.Nullable<System.DateTime> _data_e;
+		
+		public F002()
+		{
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_smocod", DbType="NVarChar(5) NOT NULL", CanBeNull=false)]
+		public string smocod
+		{
+			get
+			{
+				return this._smocod;
+			}
+			set
+			{
+				if ((this._smocod != value))
+				{
+					this._smocod = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_tf_okato", DbType="NVarChar(5) NOT NULL", CanBeNull=false)]
+		public string tf_okato
+		{
+			get
+			{
+				return this._tf_okato;
+			}
+			set
+			{
+				if ((this._tf_okato != value))
+				{
+					this._tf_okato = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_nam_smop", DbType="NVarChar(254) NOT NULL", CanBeNull=false)]
+		public string nam_smop
+		{
+			get
+			{
+				return this._nam_smop;
+			}
+			set
+			{
+				if ((this._nam_smop != value))
+				{
+					this._nam_smop = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_nam_smok", DbType="NVarChar(250) NOT NULL", CanBeNull=false)]
+		public string nam_smok
+		{
+			get
+			{
+				return this._nam_smok;
+			}
+			set
+			{
+				if ((this._nam_smok != value))
+				{
+					this._nam_smok = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_inn", DbType="NVarChar(12)")]
+		public string inn
+		{
+			get
+			{
+				return this._inn;
+			}
+			set
+			{
+				if ((this._inn != value))
+				{
+					this._inn = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Ogrn", DbType="NVarChar(15)")]
+		public string Ogrn
+		{
+			get
+			{
+				return this._Ogrn;
+			}
+			set
+			{
+				if ((this._Ogrn != value))
+				{
+					this._Ogrn = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_KPP", DbType="NVarChar(9)")]
+		public string KPP
+		{
+			get
+			{
+				return this._KPP;
+			}
+			set
+			{
+				if ((this._KPP != value))
+				{
+					this._KPP = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_index_j", DbType="NVarChar(6)")]
+		public string index_j
+		{
+			get
+			{
+				return this._index_j;
+			}
+			set
+			{
+				if ((this._index_j != value))
+				{
+					this._index_j = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_addr_j", DbType="NVarChar(254)")]
+		public string addr_j
+		{
+			get
+			{
+				return this._addr_j;
+			}
+			set
+			{
+				if ((this._addr_j != value))
+				{
+					this._addr_j = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_index_f", DbType="NVarChar(6)")]
+		public string index_f
+		{
+			get
+			{
+				return this._index_f;
+			}
+			set
+			{
+				if ((this._index_f != value))
+				{
+					this._index_f = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_addr_f", DbType="NVarChar(254)")]
+		public string addr_f
+		{
+			get
+			{
+				return this._addr_f;
+			}
+			set
+			{
+				if ((this._addr_f != value))
+				{
+					this._addr_f = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_okopf", DbType="NVarChar(5)")]
+		public string okopf
+		{
+			get
+			{
+				return this._okopf;
+			}
+			set
+			{
+				if ((this._okopf != value))
+				{
+					this._okopf = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_fam_ruk", DbType="NVarChar(40)")]
+		public string fam_ruk
+		{
+			get
+			{
+				return this._fam_ruk;
+			}
+			set
+			{
+				if ((this._fam_ruk != value))
+				{
+					this._fam_ruk = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_im_ruk", DbType="NVarChar(40)")]
+		public string im_ruk
+		{
+			get
+			{
+				return this._im_ruk;
+			}
+			set
+			{
+				if ((this._im_ruk != value))
+				{
+					this._im_ruk = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_ot_ruk", DbType="NVarChar(40)")]
+		public string ot_ruk
+		{
+			get
+			{
+				return this._ot_ruk;
+			}
+			set
+			{
+				if ((this._ot_ruk != value))
+				{
+					this._ot_ruk = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_phone", DbType="NVarChar(40)")]
+		public string phone
+		{
+			get
+			{
+				return this._phone;
+			}
+			set
+			{
+				if ((this._phone != value))
+				{
+					this._phone = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_fax", DbType="NVarChar(40)")]
+		public string fax
+		{
+			get
+			{
+				return this._fax;
+			}
+			set
+			{
+				if ((this._fax != value))
+				{
+					this._fax = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_e_mail", DbType="NVarChar(40)")]
+		public string e_mail
+		{
+			get
+			{
+				return this._e_mail;
+			}
+			set
+			{
+				if ((this._e_mail != value))
+				{
+					this._e_mail = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_www", DbType="NVarChar(100)")]
+		public string www
+		{
+			get
+			{
+				return this._www;
+			}
+			set
+			{
+				if ((this._www != value))
+				{
+					this._www = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_org", DbType="Decimal(1,0)")]
+		public System.Nullable<decimal> org
+		{
+			get
+			{
+				return this._org;
+			}
+			set
+			{
+				if ((this._org != value))
+				{
+					this._org = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_d_begin", DbType="DateTime")]
+		public System.Nullable<System.DateTime> d_begin
+		{
+			get
+			{
+				return this._d_begin;
+			}
+			set
+			{
+				if ((this._d_begin != value))
+				{
+					this._d_begin = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_d_end", DbType="DateTime")]
+		public System.Nullable<System.DateTime> d_end
+		{
+			get
+			{
+				return this._d_end;
+			}
+			set
+			{
+				if ((this._d_end != value))
+				{
+					this._d_end = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_name_e", DbType="NVarChar(15)")]
+		public string name_e
+		{
+			get
+			{
+				return this._name_e;
+			}
+			set
+			{
+				if ((this._name_e != value))
+				{
+					this._name_e = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_Nal_p", DbType="NVarChar(1)")]
+		public string Nal_p
+		{
+			get
+			{
+				return this._Nal_p;
+			}
+			set
+			{
+				if ((this._Nal_p != value))
+				{
+					this._Nal_p = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_DUVED", DbType="DateTime")]
+		public System.Nullable<System.DateTime> DUVED
+		{
+			get
+			{
+				return this._DUVED;
+			}
+			set
+			{
+				if ((this._DUVED != value))
+				{
+					this._DUVED = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_kol_zl", DbType="Decimal(10,0)")]
+		public System.Nullable<decimal> kol_zl
+		{
+			get
+			{
+				return this._kol_zl;
+			}
+			set
+			{
+				if ((this._kol_zl != value))
+				{
+					this._kol_zl = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_d_edit", DbType="DateTime")]
+		public System.Nullable<System.DateTime> d_edit
+		{
+			get
+			{
+				return this._d_edit;
+			}
+			set
+			{
+				if ((this._d_edit != value))
+				{
+					this._d_edit = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_n_doc", DbType="NVarChar(20)")]
+		public string n_doc
+		{
+			get
+			{
+				return this._n_doc;
+			}
+			set
+			{
+				if ((this._n_doc != value))
+				{
+					this._n_doc = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_d_start", DbType="DateTime")]
+		public System.Nullable<System.DateTime> d_start
+		{
+			get
+			{
+				return this._d_start;
+			}
+			set
+			{
+				if ((this._d_start != value))
+				{
+					this._d_start = value;
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_data_e", DbType="DateTime")]
+		public System.Nullable<System.DateTime> data_e
+		{
+			get
+			{
+				return this._data_e;
+			}
+			set
+			{
+				if ((this._data_e != value))
+				{
+					this._data_e = value;
 				}
 			}
 		}
