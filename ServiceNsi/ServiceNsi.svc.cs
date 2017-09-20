@@ -19,7 +19,7 @@ namespace ServiceNsi
             string xmlFileName = "F001.xml";
             XDocument xDocPlan = XDocument.Load(path + @"\xml\" + xmlFileName);
             List<F001> listF001s = new List<F001>();
-            
+            //List<F001> listF001s = new List<F001>();
 
             foreach (XElement el in xDocPlan.Elements())
             {

@@ -84,6 +84,7 @@
     </Compile>
     <Compile Include="IServiceNsi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
